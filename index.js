@@ -11,6 +11,6 @@ module.exports = {
     app.import('vendor/assets/shake-it-off.jpg');
     app.import('vendor/assets/so-fetch.jpg');
     app.import('vendor/assets/thought-leader.jpg');
-    app.import('vendor/assets/yeezus');
+    app.import('vendor/assets/yeezus.jpg');
   }
 };
