@@ -40,9 +40,8 @@ export default function imageData(id) {
   if(arguments.length) {
     return Image.create(images[id]);
   } else {
-    var imagesArray = Object.keys(images).map(function(k){
-      return ImageImage.create(images[k]);
+    return Object.keys(images).map(function(k){
+      return Image.create(images[k]);
     });
-    return imagesArray;
   }
 }
