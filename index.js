@@ -10,6 +10,7 @@ module.exports = {
     app.import('vendor/assets/flippin-sweet.jpg');
     app.import('vendor/assets/shake-it-off.jpg');
     app.import('vendor/assets/so-fetch.jpg');
+    app.import('vendor/assets/freeman.jpg');
     app.import('vendor/assets/thought-leader.jpg');
     app.import('vendor/assets/yeezus.jpg');
   }
