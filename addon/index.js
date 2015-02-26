@@ -1,4 +1,6 @@
-import Image from '../models/image';
+var Image = Ember.Object.extend({
+  url: ""
+});
 
 export default function imageData(id) {
   var images = {
@@ -39,7 +41,7 @@ export default function imageData(id) {
     return Image.create(images[id]);
   } else {
     var imagesArray = Object.keys(images).map(function(k){
-      return Image.create(images[k]);
+      return ImageImage.create(images[k]);
     });
     return imagesArray;
   }
